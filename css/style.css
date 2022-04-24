@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.personData {
+    display: flex;
+    flex-direction: column;
+}
+.person {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.firstName, .secondName, .change {
+    margin-right: 20px;
+}
