@@ -12,11 +12,11 @@ body {
     display: flex;
     flex-direction: column;
 }
-.person {
+.person, #addPerson {
     display: flex;
     flex-direction: row;
     margin: 10px;
 }
-.firstName, .secondName, .change {
+.name, .number, .change {
     margin-right: 20px;
 }

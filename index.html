@@ -8,25 +8,11 @@
     <title>Document</title>
 </head>
 <body id="body">
-    <div class="personData">
-        <div class="person" id="0">
-            <input disabled="true" type="text" class="firstName" placeholder="Вова">
-            <input disabled="true" type="text" class="secondName" placeholder="Вовин">
-            <button class="change">Редактировать</button>
-            <button class="delete">Удалить</button>
-        </div>
-        <div class="person" id="1">
-            <input type="text" class="firstName" placeholder="Саша">
-            <input type="text" class="secondName" placeholder="Сашин">
-            <button class="change">Редактировать</button>
-            <button class="delete">Удалить</button>
-        </div>
-        <div class="person" id="2">
-            <input type="text" class="firstName" placeholder="Петя">
-            <input type="text" class="secondName" placeholder="Петин">
-            <button class="change">Редактировать</button>
-            <button class="delete">Удалить</button>
-        </div>
+    <div id="personData"></div>
+    <div id="addPerson">
+        <input type="text" class="name" id="name">
+        <input type="text" class="number" id="number">
+        <button id="add">Добавить</button>
     </div>
     <script src="./js/script.js"></script>
 </body>
